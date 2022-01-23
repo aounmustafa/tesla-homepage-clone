@@ -2,11 +2,62 @@
   width: 100vw;
   height: 100vh;
   background-position: center;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-snap-align: start;
 }
 .text_onBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.button1 {
+  border: 0px;
+  border-radius: 50px;
+  margin: 10px;
+  width: 180px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: "iCeilMedium";
+}
+
+.button2 {
+  font-size: 10px;
+  font-family: "iCeilMedium";
+  border: 0px;
+  border-radius: 50px;
+  margin: 10px;
+  width: 180px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.button3 {
+  font-size: 10px;
+  font-family: "iCeilMedium";
+  border: 0px;
+  border-radius: 50px;
+  margin: 10px;
+  width: 180px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
+  cursor: pointer;
 }

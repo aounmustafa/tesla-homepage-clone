@@ -18,7 +18,7 @@ const App = () => {
       <Content title="Model X" bg={ModelX} />
       <Content title="Solar Panels" bg={SolarPanels} />
       <Content title="Solar Roof" bg={SolarRoof} />
-      <Content title="Accessories" bg={Acc} />
+      <Content title="Accessories" bg={Acc} acc={true} />
     </div>
   );
 };

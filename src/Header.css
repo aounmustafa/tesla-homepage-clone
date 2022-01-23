@@ -25,7 +25,16 @@
   cursor: pointer;
 }
 .header_center > p:hover {
-  background-color: rgb(165, 182, 207);
+  background-color: hsla(220, 1%, 52%, 0.486);
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 5px;
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.header_right > p:hover {
+  background-color: hsla(220, 1%, 52%, 0.486);
   /* border: 1px solid black; */
   border-radius: 10px;
   padding: 5px;
