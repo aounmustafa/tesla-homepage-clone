@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  margin-top: 5px;
+  z-index: 100;
+}
+.logo {
+  object-fit: contain;
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 100px;
+  height: 18px;
+}
+
+.header_center {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.header_center > p {
+  margin: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.header_center > p:hover {
+  background-color: rgb(165, 182, 207);
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 5px;
+  z-index: 100;
+  transition: all 0.5s;
+}
+.header_right > p {
+  margin: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.header_right {
+  margin-right: 20px;
+  display: flex;
+}
